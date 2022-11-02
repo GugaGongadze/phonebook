@@ -1,4 +1,4 @@
-# phonebook
+# phonebook app
 
 ## To start locally without Docker:
 
