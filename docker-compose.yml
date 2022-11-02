@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  phonebook-ui:
+    container_name: phonebook-ui
+    image: phonebook-ui
+    build:
+      context: ./ui
+    ports:
+      - 3000:3000
+  phonebook-server:
+    container_name: phonebook-server
+    image: phonebook-server
+    build:
+      context: ./server
+    ports:
+      - 4000:4000
